@@ -4,6 +4,9 @@ Digital images are made up of the smallest graphical elements capable of storing
 
 Image compression minimizes the size of an image by decomposing the matrix and eliminating the entries that are relatively small. Since some of the entries are being zeroed-out, the compressed image will be a less-sharp, less-detailed version of the original image. We can tune the quality of the compressed image so that it does not exceed the amount of memory we are willing to allocate. There is a direct relationship between the size of the compressed image and its quality. Lower size will result in lower quality of the compressed image. In most cases, though, we want to compress an image in such a way that our eyes will hardly be able to distinguish the compressed image from the original image.
 
+## Basic requirements
+1. Matplotlib installed. To install on MacOS, run python3 -m pip install matplotlib.
+2. PIL/Pillow installed. To install on MacOS, run python3 -m pip install --upgrade Pillow
 ## How to use
 1. Clone the repo or download svd.py and svd-test.py separately.
 2. In line 10 of svd-test.py, assign with the path to the image that you want to decompress.
